@@ -1,0 +1,59 @@
+aside{
+    display: flex;
+    
+}
+
+.side__gaming{
+    margin: none;
+    background-color: #A09EBB;
+    line-height: -1px;
+    p{
+        color: white;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    padding: 20px;
+}
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 270px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.card h3 {
+    margin: 15px 0;
+}
+.card p {
+    font-size: 14px;
+    color: #666;
+    padding: 0 10px;
+}
+.card button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card button:hover {
+    background: #0056b3;
+}

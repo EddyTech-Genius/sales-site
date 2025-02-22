@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("../images/shopping\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #A6FFA1;
+    background-position: center;
+    /* width: 100%; */
+}
+
+
+
+nav ul{
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+    li a{
+
+        text-decoration: none;
+    }
+}
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    max-width: 600px;
+    color: #A09EBB;
+    line-height: 65px;
+    margin-bottom: 20px;
+}
+
+p{
+    max-width: 350px;
+    text-align: center;
+    color: #A09EBB;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+
+.intro__button{
+    padding: 10px;
+    width: 300px;
+    border: none;
+    color: #A09EBB;
+}
+
+.intro__button:hover{
+    cursor: pointer;
+    background-color: #A09EBB;
+    color: white;
+    transition: all 1s;
+}
