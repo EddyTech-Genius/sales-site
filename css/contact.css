@@ -1,4 +1,4 @@
-#contact {
+#contact{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,22 +6,20 @@
     margin: 100px;
 }
 
-.contact__container {
+.contact__container{
     display: flex;
 }
 
-.contact__text {
-    background-color: #A09EBB; /* Muted purple */
+.contact__text{
+    background-color: purple;
     width: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     border-radius: 0 10px 10px 0;
-    color: white;
-    padding: 20px;
 }
 
-img {
+img{
     height: 400px;
 }

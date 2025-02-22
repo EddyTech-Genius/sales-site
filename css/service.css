@@ -1,18 +1,17 @@
-aside {
+aside{
     display: flex;
+    
 }
 
-.side__gaming {
-    background-color: #A09EBB; /* Soft purple */
-    padding: 15px;
-    border-radius: 10px;
+.side__gaming{
+    margin: none;
+    background-color: #A09EBB;
+    line-height: -1px;
+    p{
+        color: white;
+    }
 }
 
-.side__gaming p {
-    color: white;
-}
-
-/* Card Section */
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -21,7 +20,6 @@ aside {
     max-width: 1200px;
     padding: 20px;
 }
-
 .card {
     background: white;
     border-radius: 10px;
@@ -32,38 +30,30 @@ aside {
     padding: 20px;
     transition: transform 0.3s;
 }
-
 .card:hover {
     transform: translateY(-5px);
 }
-
 .card img {
     width: 100%;
     border-radius: 10px 10px 0 0;
 }
-
 .card h3 {
     margin: 15px 0;
-    color: #A09EBB; /* Soft purple */
 }
-
 .card p {
     font-size: 14px;
     color: #666;
     padding: 0 10px;
 }
-
 .card button {
     margin-top: 10px;
     padding: 10px 15px;
     border: none;
-    background: #B5D2CB; /* Soft teal */
+    background: #007bff;
     color: white;
     border-radius: 5px;
     cursor: pointer;
-    font-weight: bold;
 }
-
 .card button:hover {
-    background: #A8AEC1; /* Neutral gray-blue */
+    background: #0056b3;
 }

@@ -1,18 +1,29 @@
-#home {
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+}
+
+#home{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: url("../images/shopping (1).png");
+    background-image: url("../images/shopping\ \(1\).png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #A6FFA1; /* Soft green */
+    background-color: #A6FFA1;
     background-position: center;
+    /* width: 100%; */
 }
 
-/* Navigation */
-nav ul {
+
+
+nav ul{
     padding: 15px;
     position: absolute;
     top: 0;
@@ -20,45 +31,41 @@ nav ul {
     display: flex;
     list-style: none;
     gap: 20px;
+
+    li a{
+
+        text-decoration: none;
+    }
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #A09EBB; /* Soft purple */
-    font-weight: bold;
-}
-
-h1 {
+h1{
     font-size: 70px;
     text-align: center;
     max-width: 600px;
-    color: #A09EBB; /* Soft purple */
+    color: #A09EBB;
     line-height: 65px;
     margin-bottom: 20px;
 }
 
-p {
+p{
     max-width: 350px;
     text-align: center;
-    color: #B5D2CB; /* Soft teal */
+    color: #A09EBB;
     font-weight: 100;
     margin-bottom: 20px;
 }
 
-/* Buttons */
-.intro__button {
+
+.intro__button{
     padding: 10px;
     width: 300px;
     border: none;
-    background-color: #A8AEC1; /* Neutral gray-blue */
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
+    color: #A09EBB;
 }
 
-.intro__button:hover {
+.intro__button:hover{
     cursor: pointer;
-    background-color: #A09EBB; /* Soft purple */
+    background-color: #A09EBB;
     color: white;
-    transition: all 0.5s;
+    transition: all 1s;
 }
