@@ -1,0 +1,25 @@
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.contact__container{
+    display: flex;
+}
+
+.contact__text{
+    background-color: purple;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 10px 10px 0;
+}
+
+img{
+    height: 400px;
+}
