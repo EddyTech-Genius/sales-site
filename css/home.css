@@ -1,3 +1,12 @@
+body{
+    background-color: #A09EBB
+    #A8AEC1
+    #B5D2CB
+    #BFFFBc
+    #A6FFA1
+    #FFFFFF;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -19,12 +28,20 @@ body{
     background-color: #A6FFA1;
     background-position: center;
     /* width: 100%; */
+    p{
+        max-width: 350px;
+        text-align: center;
+        color: #A09EBB;
+        font-weight: 100;
+        margin-bottom: 20px;
+    }
 }
 
 
 
 nav ul{
-    padding: 15px;
+    align-items: center;
+    padding: 20px;
     position: absolute;
     top: 0;
     right: 0;
@@ -47,15 +64,6 @@ h1{
     margin-bottom: 20px;
 }
 
-p{
-    max-width: 350px;
-    text-align: center;
-    color: #A09EBB;
-    font-weight: 100;
-    margin-bottom: 20px;
-}
-
-
 .intro__button{
     padding: 10px;
     width: 300px;
@@ -68,4 +76,16 @@ p{
     background-color: #A09EBB;
     color: white;
     transition: all 1s;
+}
+
+input[type="search"]{
+    border: none;
+    padding: 5px;
+}
+
+.sign__up{
+    border: none;
+    background-color: white;
+    padding: 5px;
+    width: 100px;
 }
