@@ -3,7 +3,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 100px;
+    background-color: #A09EBB;
+    min-height: 100dvh;
+    width: 100%;
 }
 
 .contact__container{
@@ -11,15 +13,34 @@
 }
 
 .contact__text{
-    background-color: purple;
+    background-color:  #A6FFA1;
     width: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 20px;
     border-radius: 0 10px 10px 0;
+    button{
+        border: none;
+        padding: 8px;
+        width: 500px;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    h2{
+        font-size: 40px;
+        color: #A09EBB;;
+    }
 }
 
 img{
     height: 400px;
+}
+
+.inputs{
+    border: none;
+    padding: 8px;
+    width: 480px;
 }
