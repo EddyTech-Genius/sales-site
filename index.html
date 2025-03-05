@@ -2,6 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/home.css" />
     <link rel="stylesheet" href="css/service.css" />
@@ -15,13 +28,19 @@
           <li><a href="">Home</a></li>
           <li><a href="">Contact</a></li>
           <li><a href="">Services</a></li>
-          <input type="search" />
+
+          <div class="input__container">
+            <input type="search" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
 
           <span>|</span>
 
-          <li><a href="">Sign in</a></li>
+          <li class="sign__in"><a href="">Sign in</a></li>
           <button class="sign__up">
-            <li><a href="">Sign up</a></li>
+            <li>
+              <a href="">Sign up</a>
+            </li>
           </button>
         </ul>
       </nav>
@@ -43,7 +62,7 @@
           <p>Mouse</p>
           <p>Keyboard</p>
           <p>Consoles</p>
-          
+
           <h2>Clothes</h2>
           <p>Trousers</p>
           <p>Skirt</p>
@@ -51,12 +70,12 @@
           <p>Shoes</p>
           <p>Coats</p>
           <p>Bags</p>
-          
+
           <h2>Gym</h2>
           <p>Treadmill</p>
           <p>Dumbbells</p>
           <p>Jump Rope</p>
-          
+
           <h2>Sports</h2>
           <p>Football</p>
           <p>Football Boots</p>
@@ -64,7 +83,7 @@
           <p>Gloves</p>
           <p>Tennis</p>
           <p>Socks</p>
-          
+
           <h2>Electronics</h2>
           <p>Fridge</p>
           <p>Mobile Phones</p>
@@ -72,7 +91,6 @@
           <p>Blenders</p>
           <p>Microwaves</p>
           <p>Television</p>
-          
 
           <button class="back-home">Go Back Home</button>
         </div>
@@ -124,9 +142,14 @@
         <div class="contact__text">
           <h2>CONTACT US</h2>
 
-          <input placeholder="Your name..." type="text" class="inputs"/>
-          <input placeholder="Your email..." type="email" class="inputs"/>
-          <textarea placeholder="Your message..." class="inputs" rows="5" id=""></textarea>
+          <input placeholder="Your name..." type="text" class="inputs" />
+          <input placeholder="Your email..." type="email" class="inputs" />
+          <textarea
+            placeholder="Your message..."
+            class="inputs"
+            rows="5"
+            id=""
+          ></textarea>
           <button>Submit</button>
         </div>
       </div>
